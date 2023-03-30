@@ -1,0 +1,188 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.question
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.parent
+{
+    display: flex;
+    justify-content: center;
+
+}
+.box2
+{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.magic1
+{
+    transition: all 0.6s;
+}
+.magic1:hover
+{
+  width: 300px;   
+}
+.magic2
+{
+    transition: all 0.6s;
+}
+.magic2:hover
+{
+    width: 300px;
+    height: 300px;
+}
+.magic3
+{
+    transition: all 0.6s ease-in;
+}
+.magic3:hover
+{
+    width: 300px;
+}
+.magic4
+{
+    transition: all 0.6s ease-out;
+}
+.magic4:hover
+{
+    width: 300px;
+}
+.magic5
+{
+    transition: all 0.6s ease-in-out;
+}
+.magic5:hover
+{
+    width: 300px;
+}
+.max1
+{
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    transform: translate(50px,30px);
+}
+.max2
+{
+    width: 150px;
+    height: 150px;
+    background-color: darkorange;
+    border: 5px solid red;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    transform: skew(30deg,30deg);
+}
+.max3
+{
+    width: 200px;
+    height: 200px;
+    background-color: fuchsia;
+    border: 5px groove green;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+}
+.max4
+{
+    width: 150px;
+    height: 150px;
+    background-color: cyan;
+    border: 5px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scaleX(2);
+}
+.gridbox
+{
+    display: grid;
+    gap: 10px;
+    width: 100vw;
+    height: 100vh;
+}
+.dark
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: x-large;
+    font-weight: bold;
+}
+.grid1
+{
+    grid-area:1/1/4/2;
+    background-color: greenyellow;
+}
+.grid2
+{
+    grid-area: 1/2/2/4;
+    background-color: greenyellow;
+}
+.grid3
+{
+    grid-area: 1/4/2/5;
+    background-color: red;
+}
+.grid4
+{
+    grid-area: 2/2/3/3;
+    background-color: orange;
+}
+.grid5
+{
+    grid-area: 2/3/3/4;
+    background-color: red;
+}
+.grid6
+{
+    grid-area: 2/4/4/5;
+    background-color: greenyellow;
+}
+.grid7
+{
+    grid-area: 3/2/4/3;
+    background-color:red ;
+}
+.grid8
+{
+    grid-area: 3/3/4/4;
+    background-color: orange;
+}
+ul 
+{
+    margin-left: 20px;
+    font-size: large;
+}
+p 
+{
+    font-size: x-large;
+    font-weight: bold;
+}
